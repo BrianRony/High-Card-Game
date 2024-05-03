@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;  
     font-size: 48px;
     text-align: center;
@@ -46,11 +46,11 @@ img{
 }
 
 #player-0{
-    background-color:  #0fbfbf;
+    background-color:  #b4d6d6;
 }
 
 #player-1{
-    background-color:#0fbfbf;
+    background-color:#b4d6d6;
 }
 
 .card{
