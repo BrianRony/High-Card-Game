@@ -58,7 +58,7 @@ document.querySelector('#btn-shuffle').addEventListener('click',()=>{
         // 5. Enable Hold button
         document.getElementById("btn-hold").disabled=false;
     
-    }else if(userScore==highScore){
+    }else if(userScore===highScore){
         document.getElementById("player-title-0").textContent="Champion";
         document.getElementById("btn-shuffle").disabled=true;
         document.getElementById("btn-hold").disabled=true;
@@ -94,7 +94,7 @@ function hold (){
         }
         shuffleLimit=3;
         document.getElementById("btn-hold").disabled=true;
-    }else if(userScore==highScore){
+    }else if(userScore===highScore){
         document.getElementById("player-title-0").textContent="Champion";
         document.getElementById("btn-shuffle").disabled=true;
         document.getElementById("btn-hold").disabled=true;
