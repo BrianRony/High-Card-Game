@@ -28,7 +28,7 @@ The code also uses the HTML DOM to manipulate the webpage elements, such as chan
 To play the game, follow these steps:
 
 1. Click the "New Game" button to start a new game.
-2. Click the "Shuffle" button to draw a random card and update your score.
+2. Click the "Draw Card" button to draw a random card and update your score.
 3. Repeat step 2 until you are satisfied with your score.
 4. Click the "Hold" button to let the computer draw a card and compare the cards.
 5. Repeat steps 2-4 until one of the players reaches the high score.
