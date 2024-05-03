@@ -44,6 +44,7 @@ document.querySelector('#btn-shuffle').addEventListener('click',()=>{
         
         // 2. Random number
         userNumber=Math.floor(Math.random()*13)+1;
+        console.log(userNumber);
 
         // 3.Display result
         if (shuffleLimit>0){
