@@ -23,6 +23,7 @@ img{
     top: 170px;
     left: 15%;
     box-shadow: 0px 10px 50px rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 
 .player-panel{
